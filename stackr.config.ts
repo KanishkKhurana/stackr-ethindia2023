@@ -21,14 +21,14 @@ const stackrConfig: StackrConfig = {
     accounts: [
       {
         privateKey:
-          "<APP-OPERATOR-KEY>",
+          "a4074070f43027b5c9a8822e8a995ecd45025adc775fdf022574f1fde0dc71c7",
         purpose: KeyPurpose.BATCH,
         scheme: SignatureScheme.ECDSA,
       },
     ],
   },
   domain: {
-    name: "Stackr MVP v0",
+    name: "one",
     version: "1",
     chainId: 1,
     verifyingContract: deployment.app_inbox,
